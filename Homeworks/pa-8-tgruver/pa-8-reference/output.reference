@@ -1,0 +1,229 @@
+Priority Queue with flowers ordered by name
+
+Test case 1: PriorityQueue constructued correctly (method offer)
+18 flowers read from the file and added to the priority queue
+(Begonia, [pink, red, yellow, orange, purple])
+(Camelia, [white, pink, red, yellow])
+(Chrysanthemum, [white, yellow, orange, red, purple, pink])
+(Cosmos, [pink, white, red, orange, yellow])
+(Dahlia, [white, pink, red, yellow, orange, purple])
+(Daisy, [white, yellow, purple, red, orange, blue])
+(Geranium, [white, red, pink, purple, orange])
+(Hyacinth, [purple, blue, pink, red, orange, yellow, white])
+(Iris, [purple, blue])
+(Jasmine, [white, yellow, pink])
+(Lavender, [purple])
+(Lily, [orange, pink, white, purple])
+(Magnolia, [white, pink, purple, yellow, red])
+(Narcissus, [white, yellow, pink, orange])
+(Rose, [pink, white, yellow, red, blue, orange])
+(Tulip, [red, pink, yellow, orange, purple, white])
+(Violet, [purple, blue])
+(Yew, [green, yellow])
+
+Test case 2: Method contains (successful)
+Heap contains "Rose"? true
+
+Test case 3: Method contains (fail)
+Heap contains "Coquelicot"? false
+
+Test case 4: Method remove (successful)
+"Hyacinth" removed? true
+
+Test case 5: Method remove (fail)
+"Musk" removed? false
+
+Test case 6: Method addAll
+(Begonia, [pink, red, yellow, orange, purple])
+(Camelia, [white, pink, red, yellow])
+(Chrysanthemum, [white, yellow, orange, red, purple, pink])
+(Cosmos, [pink, white, red, orange, yellow])
+(Dahlia, [white, pink, red, yellow, orange, purple])
+(Daisy, [white, yellow, purple, red, orange, blue])
+(Geranium, [white, red, pink, purple, orange])
+(Iris, [purple, blue])
+(Jasmine, [white, yellow, pink])
+(Lavender, [purple])
+(Lily, [white])
+(Lily, [orange, pink, white, purple])
+(Lotus, [white, pink])
+(Magnolia, [white, pink, purple, yellow, red])
+(Narcissus, [white, yellow, pink, orange])
+(Orchid, [purple])
+(Poeny, [])
+(Rose, [pink, white, yellow, red, blue, orange])
+(Tulip, [red, pink, yellow, orange, purple, white])
+(Violet, [purple, blue])
+(Yew, [green, yellow])
+
+Test case 7: Method retainAll
+(Lily, [orange, pink, white, purple])
+
+Test case 8: Method removeAll
+(Begonia, [pink, red, yellow, orange, purple])
+(Camelia, [white, pink, red, yellow])
+(Chrysanthemum, [white, yellow, orange, red, purple, pink])
+(Cosmos, [pink, white, red, orange, yellow])
+(Dahlia, [white, pink, red, yellow, orange, purple])
+(Daisy, [white, yellow, purple, red, orange, blue])
+(Geranium, [white, red, pink, purple, orange])
+(Iris, [purple, blue])
+(Jasmine, [white, yellow, pink])
+(Lavender, [purple])
+(Magnolia, [white, pink, purple, yellow, red])
+(Narcissus, [white, yellow, pink, orange])
+(Rose, [pink, white, yellow, red, blue, orange])
+(Tulip, [red, pink, yellow, orange, purple, white])
+(Violet, [purple, blue])
+(Yew, [green, yellow])
+
+Priority Queue with flowers ordered by their number of colors
+
+Test case 9: PriorityQueue constructued using a custom order: the number of colors 
+(Lavender, [purple])
+(Violet, [purple, blue])
+(Iris, [purple, blue])
+(Yew, [green, yellow])
+(Jasmine, [white, yellow, pink])
+(Narcissus, [white, yellow, pink, orange])
+(Camelia, [white, pink, red, yellow])
+(Lily, [orange, pink, white, purple])
+(Cosmos, [pink, white, red, orange, yellow])
+(Begonia, [pink, red, yellow, orange, purple])
+(Geranium, [white, red, pink, purple, orange])
+(Magnolia, [white, pink, purple, yellow, red])
+(Rose, [pink, white, yellow, red, blue, orange])
+(Daisy, [white, yellow, purple, red, orange, blue])
+(Dahlia, [white, pink, red, yellow, orange, purple])
+(Chrysanthemum, [white, yellow, orange, red, purple, pink])
+(Tulip, [red, pink, yellow, orange, purple, white])
+(Hyacinth, [purple, blue, pink, red, orange, yellow, white])
+
+
+TreeMap with flowers ordered by name
+
+Test case 10: BST constructued correctly  (method put) 
+18 flowers read from the file and added to the binary search tree
+(Begonia, [pink, red, yellow, orange, purple])
+(Camelia, [white, pink, red, yellow])
+(Chrysanthemum, [white, yellow, orange, red, purple, pink])
+(Cosmos, [pink, white, red, orange, yellow])
+(Dahlia, [white, pink, red, yellow, orange, purple])
+(Daisy, [white, yellow, purple, red, orange, blue])
+(Geranium, [white, red, pink, purple, orange])
+(Hyacinth, [purple, blue, pink, red, orange, yellow, white])
+(Iris, [purple, blue])
+(Jasmine, [white, yellow, pink])
+(Lavender, [purple])
+(Lily, [orange, pink, white, purple])
+(Magnolia, [white, pink, purple, yellow, red])
+(Narcissus, [white, yellow, pink, orange])
+(Rose, [pink, white, yellow, red, blue, orange])
+(Tulip, [red, pink, yellow, orange, purple, white])
+(Violet, [purple, blue])
+(Yew, [green, yellow])
+
+
+Test case 11: Method contains (successful)
+BST contains "Rose"? true
+
+Test case 12: Method get (successful)
+BST get "Rose": [pink, white, yellow, red, blue, orange]
+
+Test case 13: Method contains (fail)
+BST contains "Coquelicot"? false
+
+Test case 14: Method get (fail)
+BST get "Coquelicot": null
+
+Test case 15: Method remove (successful)
+"Hyacinth" removed? true
+
+Test case 16: Method remove (fail)
+"Musk" removed? false
+
+Test case 17: Method addAll
+(Begonia, [pink, red, yellow, orange, purple])
+(Camelia, [white, pink, red, yellow])
+(Chrysanthemum, [white, yellow, orange, red, purple, pink])
+(Cosmos, [pink, white, red, orange, yellow])
+(Dahlia, [white, pink, red, yellow, orange, purple])
+(Daisy, [white, yellow, purple, red, orange, blue])
+(Geranium, [white, red, pink, purple, orange])
+(Iris, [purple, blue])
+(Jasmine, [white, yellow, pink])
+(Lavender, [purple])
+(Lily, [white])
+(Lotus, [white, pink])
+(Magnolia, [white, pink, purple, yellow, red])
+(Narcissus, [white, yellow, pink, orange])
+(Orchid, [purple])
+(Poeny, [])
+(Rose, [pink, white, yellow, red, blue, orange])
+(Tulip, [red, pink, yellow, orange, purple, white])
+(Violet, [purple, blue])
+(Yew, [green, yellow])
+
+Test case 18: Method retainAll
+(Lily, [orange, pink, white, purple])
+
+Test case 19: Method removeAll
+(Begonia, [pink, red, yellow, orange, purple])
+(Camelia, [white, pink, red, yellow])
+(Chrysanthemum, [white, yellow, orange, red, purple, pink])
+(Cosmos, [pink, white, red, orange, yellow])
+(Dahlia, [white, pink, red, yellow, orange, purple])
+(Daisy, [white, yellow, purple, red, orange, blue])
+(Geranium, [white, red, pink, purple, orange])
+(Iris, [purple, blue])
+(Jasmine, [white, yellow, pink])
+(Lavender, [purple])
+(Magnolia, [white, pink, purple, yellow, red])
+(Narcissus, [white, yellow, pink, orange])
+(Rose, [pink, white, yellow, red, blue, orange])
+(Tulip, [red, pink, yellow, orange, purple, white])
+(Violet, [purple, blue])
+(Yew, [green, yellow])
+
+Test case 20: Method first
+First: (Begonia, [pink, red, yellow, orange, purple])
+
+Test case 21: Method last
+Last : (Yew, [green, yellow])
+
+Test case 22: Method ceiling (succesful: key is the ceiling)
+Ceiling("Daisy") : (Daisy, [white, yellow, purple, red, orange, blue])
+
+Test case 23: Method ceiling (succesful: ceiling found)
+Ceiling("Dandrum") : (Geranium, [white, red, pink, purple, orange])
+
+Test case 24: Method ceiling (fail: no ceiling)
+Ceiling("Zebra") : null
+
+Test case 25: Method floor (successful: key is the floor)
+floor("Iris") : (Iris, [purple, blue])
+
+Test case 26: Method floor (successful: floor found)
+floor("Boba") : (Begonia, [pink, red, yellow, orange, purple])
+
+Test case 27: Method floor (fail: no floor)
+floor("Art") : null
+
+Test case 28: Method keys
+BST keys: [Begonia, Camelia, Chrysanthemum, Cosmos, Dahlia, Daisy, Geranium, Iris, Jasmine, Lavender, Lily, Magnolia, Narcissus, Rose, Tulip, Violet, Yew]
+
+Test case 29: Method values
+BST values: [[pink, red, yellow, orange, purple], [white, pink, red, yellow], [white, yellow, orange, red, purple, pink], [pink, white, red, orange, yellow], [white, pink, red, yellow, orange, purple], [white, yellow, purple, red, orange, blue], [white, red, pink, purple, orange], [purple, blue], [white, yellow, pink], [purple], [orange, pink, white, purple], [white, pink, purple, yellow, red], [white, yellow, pink, orange], [pink, white, yellow, red, blue, orange], [red, pink, yellow, orange, purple, white], [purple, blue], [green, yellow]]
+
+
+TreeMap with flowers orderd by their name length
+
+Test case 30: BST constructued using a custom order: the flower name length
+(Yew, [green, yellow])
+(Rose, [orange, pink, white, purple])
+(Daisy, [red, pink, yellow, orange, purple, white])
+(Violet, [pink, white, red, orange, yellow])
+(Jasmine, [pink, red, yellow, orange, purple])
+(Lavender, [white, pink, purple, yellow, red])
+(Narcissus, [white, yellow, pink, orange])
+(Chrysanthemum, [white, yellow, orange, red, purple, pink])
